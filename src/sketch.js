@@ -19,7 +19,7 @@ function draw() {
 
   frameRate(8)
   fill(41, 80, 77, r) //green
-  circle(a, b, r)
+  //circle(a, b, r)
 
   fill(254, 143, 29, r) //orange
   circle(mouseX, mouseY, r)
