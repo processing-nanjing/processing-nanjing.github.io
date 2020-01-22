@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 1.8em;
 }
 
 h3 {
@@ -33,7 +33,7 @@ li {
 }
 
 .info li {
-	font-size: 1.2em;
+	font-size: 0.9em;
 }
 
 .biginfo {
@@ -41,7 +41,12 @@ li {
 }
 
 p {
-		font-size: 1.2em;
+		font-size: 0.9em;
+display: block;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 hr {
@@ -222,6 +227,7 @@ a {
 
 footer {
 	padding-top: 1.17rem;
+                 padding-bottom: 3rem;
 }
 
 
@@ -234,9 +240,4 @@ footer {
     color: #000;
     background-color:rgba(212, 213, 214, 0.58);
     padding: 2.687vw 4.6875vw 3.90625vw;
-}
-
-img  {
-	width:100%;
-	height:100%;
 }
