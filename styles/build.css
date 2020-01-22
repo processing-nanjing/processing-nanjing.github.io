@@ -71,7 +71,7 @@ body {
 	font-size: 14px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	body {
 		font-size: 16px;
 	}
@@ -223,4 +223,8 @@ a {
 
 footer {
 	padding-top: 1.17rem;
+}
+
+img{
+         max-width:768px
 }
