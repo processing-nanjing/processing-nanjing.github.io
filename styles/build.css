@@ -52,7 +52,7 @@ display: block;
 hr {
 border: 2px dotted;
 border-style: none none dotted;
-color: #000
+color: #375B58
 }
 
 .callout {
@@ -141,7 +141,7 @@ header #logo{
 }
 
 header {
-	border-bottom: 2px dotted rebeccapurple;
+	border-bottom: 2px dotted #375B58;
 	/* padding-bottom: 10px; */
 }
 
