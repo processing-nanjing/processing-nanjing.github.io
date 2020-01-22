@@ -10,20 +10,20 @@ function setup() {
 function draw() {
   noStroke()
 
-  r = random(1, 160)
+  r = random(30, 160)
   a = random(0, width)
 
 
   var b = height * noise(t + r) //y-coordinate of the circle
 
 
-  frameRate(8)
+  frameRate(5)
   fill(41, 80, 77, r) //green
   circle(a, b, r)
 
   fill(254, 143, 29, r) //orange
   circle(mouseX, mouseY, r)
-  if (frameCount % 36 == 0) {
+  if (frameCount % 28 == 0) {
     background(255)
 
   }
