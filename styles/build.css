@@ -140,18 +140,17 @@ header {
 	/* padding-bottom: 10px; */
 }
 
-.pcd-purple{
-	color:#5A00B1;
-	/* text-shadow: 1px 1px rgb(218, 191, 248);  */
+.pcd-purple {
+	color:#375b58
 }
 
 .pcd-teal {
-	color:##1BFD84;
+	color:#375b58;
 }
 
 
 .pcd-black{
-	color:#000000;
+	color:#375b58;
 }
 
 
@@ -204,7 +203,7 @@ header h1{
 
 a {
 	text-shadow: none;
-	color: #5A00B1;
+	color: #375b58;
 }
 
 .open-call__submit:hover {
@@ -226,20 +225,13 @@ footer {
 }
 
 
-
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: calcVW(50 , $base_width);
-  z-index: 100;
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  transform-origin: top;
-  background-color: $color-base-white;
-  opacity: 0.6;
-  border-bottom: 0.1vw solid $color-base-white;
-  &.is-active {
-    opacity: 1;
-  }
+.container {
+    display: block;
+    width: 100%;
+    margin: 3.90625vw auto 0;
+    max-width: 78.125vw;
+    text-align: left;
+    color: #000;
+    background-color:rgba(212, 213, 214, 0.58);
+    padding: 2.687vw 4.6875vw 3.90625vw;
+}

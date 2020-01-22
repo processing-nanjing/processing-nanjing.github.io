@@ -18,13 +18,14 @@ function draw() {
 
 
   frameRate(3)
-  fill(41, 80, 77, r) //green
+  fill(41, 80, 77, r+55) //green
   circle(a, b, r)
 
-  fill(254, 143, 29, r) //orange
+  fill(254, 143, 29, r+55) //orange
   circle(mouseX, mouseY, r)
   if (frameCount % 28 == 0) {
     background(255)
+
 
   }
 }
