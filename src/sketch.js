@@ -17,7 +17,7 @@ function draw() {
   var b = height * noise(t + r) //y-coordinate of the circle
 
 
-  frameRate(5)
+  frameRate(3)
   fill(41, 80, 77, r) //green
   circle(a, b, r)
 

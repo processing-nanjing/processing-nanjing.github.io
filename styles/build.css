@@ -224,3 +224,17 @@ a {
 footer {
 	padding-top: 1.17rem;
 }
+
+
+body
+  {
+  background-color:transparent;
+  }
+h1
+  {
+  background-color:#00ff00;
+  }
+p
+  {
+  background-color:rgb(255,255,255);
+  }
